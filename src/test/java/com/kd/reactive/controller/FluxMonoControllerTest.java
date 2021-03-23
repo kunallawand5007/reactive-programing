@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @ExtendWith(SpringExtension.class)
-@WebFluxTest
+@WebFluxTest  // This annotation will only work with class annotate with @restController/@controller not  for @compoent/service/repositry
 public class FluxMonoControllerTest {
 
     @Autowired
